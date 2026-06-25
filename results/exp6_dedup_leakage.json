@@ -1,0 +1,196 @@
+{
+  "experiment": 6,
+  "description": "Storage-Leakage tradeoff of tunable dedup Pi_c",
+  "dataset": "PIMA Indians Diabetes",
+  "paillier_bits": 1024,
+  "c_values": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    "inf"
+  ],
+  "results": {
+    "8": [
+      {
+        "c": 1,
+        "unique_values_U": 57,
+        "total_conditions_T": 415,
+        "n_paths": 60,
+        "ciphertexts_S": 415,
+        "storage_bytes": 109680,
+        "storage_kb": 107.11,
+        "max_linkability": 1,
+        "leakage_floor": 1,
+        "max_reuse": 60
+      },
+      {
+        "c": 2,
+        "unique_values_U": 57,
+        "total_conditions_T": 415,
+        "n_paths": 60,
+        "ciphertexts_S": 217,
+        "storage_bytes": 58992,
+        "storage_kb": 57.61,
+        "max_linkability": 2,
+        "leakage_floor": 1,
+        "max_reuse": 60
+      },
+      {
+        "c": 4,
+        "unique_values_U": 57,
+        "total_conditions_T": 415,
+        "n_paths": 60,
+        "ciphertexts_S": 127,
+        "storage_bytes": 35952,
+        "storage_kb": 35.11,
+        "max_linkability": 4,
+        "leakage_floor": 1,
+        "max_reuse": 60
+      },
+      {
+        "c": 8,
+        "unique_values_U": 57,
+        "total_conditions_T": 415,
+        "n_paths": 60,
+        "ciphertexts_S": 85,
+        "storage_bytes": 25200,
+        "storage_kb": 24.61,
+        "max_linkability": 8,
+        "leakage_floor": 1,
+        "max_reuse": 60
+      },
+      {
+        "c": 16,
+        "unique_values_U": 57,
+        "total_conditions_T": 415,
+        "n_paths": 60,
+        "ciphertexts_S": 65,
+        "storage_bytes": 20080,
+        "storage_kb": 19.61,
+        "max_linkability": 16,
+        "leakage_floor": 1,
+        "max_reuse": 60
+      },
+      {
+        "c": 32,
+        "unique_values_U": 57,
+        "total_conditions_T": 415,
+        "n_paths": 60,
+        "ciphertexts_S": 60,
+        "storage_bytes": 18800,
+        "storage_kb": 18.36,
+        "max_linkability": 32,
+        "leakage_floor": 1,
+        "max_reuse": 60
+      },
+      {
+        "c": "inf",
+        "unique_values_U": 57,
+        "total_conditions_T": 415,
+        "n_paths": 60,
+        "ciphertexts_S": 57,
+        "storage_bytes": 18032,
+        "storage_kb": 17.61,
+        "max_linkability": 60,
+        "leakage_floor": 1,
+        "max_reuse": 60
+      }
+    ],
+    "12": [
+      {
+        "c": 1,
+        "unique_values_U": 96,
+        "total_conditions_T": 904,
+        "n_paths": 103,
+        "ciphertexts_S": 904,
+        "storage_bytes": 238862,
+        "storage_kb": 233.26,
+        "max_linkability": 1,
+        "leakage_floor": 1,
+        "max_reuse": 103
+      },
+      {
+        "c": 2,
+        "unique_values_U": 96,
+        "total_conditions_T": 904,
+        "n_paths": 103,
+        "ciphertexts_S": 472,
+        "storage_bytes": 128270,
+        "storage_kb": 125.26,
+        "max_linkability": 2,
+        "leakage_floor": 1,
+        "max_reuse": 103
+      },
+      {
+        "c": 4,
+        "unique_values_U": 96,
+        "total_conditions_T": 904,
+        "n_paths": 103,
+        "ciphertexts_S": 265,
+        "storage_bytes": 75278,
+        "storage_kb": 73.51,
+        "max_linkability": 4,
+        "leakage_floor": 1,
+        "max_reuse": 103
+      },
+      {
+        "c": 8,
+        "unique_values_U": 96,
+        "total_conditions_T": 904,
+        "n_paths": 103,
+        "ciphertexts_S": 168,
+        "storage_bytes": 50446,
+        "storage_kb": 49.26,
+        "max_linkability": 8,
+        "leakage_floor": 1,
+        "max_reuse": 103
+      },
+      {
+        "c": 16,
+        "unique_values_U": 96,
+        "total_conditions_T": 904,
+        "n_paths": 103,
+        "ciphertexts_S": 123,
+        "storage_bytes": 38926,
+        "storage_kb": 38.01,
+        "max_linkability": 16,
+        "leakage_floor": 1,
+        "max_reuse": 103
+      },
+      {
+        "c": 32,
+        "unique_values_U": 96,
+        "total_conditions_T": 904,
+        "n_paths": 103,
+        "ciphertexts_S": 104,
+        "storage_bytes": 34062,
+        "storage_kb": 33.26,
+        "max_linkability": 32,
+        "leakage_floor": 1,
+        "max_reuse": 103
+      },
+      {
+        "c": "inf",
+        "unique_values_U": 96,
+        "total_conditions_T": 904,
+        "n_paths": 103,
+        "ciphertexts_S": 96,
+        "storage_bytes": 32014,
+        "storage_kb": 31.26,
+        "max_linkability": 103,
+        "leakage_floor": 1,
+        "max_reuse": 103
+      }
+    ]
+  },
+  "real_build": {
+    "depth": 8,
+    "c": 4,
+    "ciphertexts": 127,
+    "correct": true,
+    "unlinkable": true
+  }
+}

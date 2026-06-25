@@ -1,0 +1,36 @@
+{
+  "experiment": 4,
+  "description": "Incremental Update Cost",
+  "dataset": "PIMA Indians Diabetes",
+  "max_depth": 8,
+  "n_repeats": 5,
+  "batch_size": 8,
+  "results": {
+    "k_values": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "privpathinfer_mean_ms": [
+      209.2764799715951,
+      230.92069998383522,
+      264.5656800130382,
+      343.15078002400696,
+      687.2092400211841
+    ],
+    "privpathinfer_std_ms": [
+      5.791662935147213,
+      2.3652408352756553,
+      7.4351461561390115,
+      5.747736435786414,
+      4.115048883189065
+    ],
+    "sdtc_mean_ms": 179.68565998598933,
+    "sdtc_std_ms": 2.6508658984815283,
+    "total_rules": 415,
+    "n_internal_nodes": 59,
+    "tree_depth": 8
+  }
+}
