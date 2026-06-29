@@ -1,0 +1,120 @@
+{
+  "pp_update_bytes": 2568,
+  "pp_update_kb": 2.51,
+  "batch_size": 8,
+  "paillier_bits": 1024,
+  "depth_sweep": [
+    {
+      "depth": 2,
+      "sdtc_kb": 0.12,
+      "pp_kb": 2.51,
+      "advantage": 0.0
+    },
+    {
+      "depth": 3,
+      "sdtc_kb": 0.25,
+      "pp_kb": 2.51,
+      "advantage": 0.1
+    },
+    {
+      "depth": 4,
+      "sdtc_kb": 0.5,
+      "pp_kb": 2.51,
+      "advantage": 0.2
+    },
+    {
+      "depth": 5,
+      "sdtc_kb": 1.0,
+      "pp_kb": 2.51,
+      "advantage": 0.4
+    },
+    {
+      "depth": 6,
+      "sdtc_kb": 2.0,
+      "pp_kb": 2.51,
+      "advantage": 0.8
+    },
+    {
+      "depth": 7,
+      "sdtc_kb": 4.0,
+      "pp_kb": 2.51,
+      "advantage": 1.6
+    },
+    {
+      "depth": 8,
+      "sdtc_kb": 8.0,
+      "pp_kb": 2.51,
+      "advantage": 3.2
+    },
+    {
+      "depth": 9,
+      "sdtc_kb": 16.0,
+      "pp_kb": 2.51,
+      "advantage": 6.4
+    },
+    {
+      "depth": 10,
+      "sdtc_kb": 32.0,
+      "pp_kb": 2.51,
+      "advantage": 12.8
+    },
+    {
+      "depth": 11,
+      "sdtc_kb": 64.0,
+      "pp_kb": 2.51,
+      "advantage": 25.5
+    },
+    {
+      "depth": 12,
+      "sdtc_kb": 128.0,
+      "pp_kb": 2.51,
+      "advantage": 51.0
+    },
+    {
+      "depth": 13,
+      "sdtc_kb": 256.0,
+      "pp_kb": 2.51,
+      "advantage": 102.1
+    },
+    {
+      "depth": 14,
+      "sdtc_kb": 512.0,
+      "pp_kb": 2.51,
+      "advantage": 204.2
+    }
+  ],
+  "per_dataset": {
+    "pima": {
+      "display": "PIMA Diabetes (8 cont.)",
+      "depth": 12,
+      "full_depth": 16,
+      "sdtc_kb": 128.0,
+      "pp_kb": 2.51,
+      "advantage": 51.0
+    },
+    "breast_cancer": {
+      "display": "Breast Cancer Wisconsin (30 cont.)",
+      "depth": 7,
+      "full_depth": 7,
+      "sdtc_kb": 4.0,
+      "pp_kb": 2.51,
+      "advantage": 1.6
+    },
+    "heart": {
+      "display": "Heart Disease Cleveland (13 mixed)",
+      "depth": 8,
+      "full_depth": 8,
+      "sdtc_kb": 8.0,
+      "pp_kb": 2.51,
+      "advantage": 3.2
+    },
+    "framingham": {
+      "display": "Framingham CHD (15 mixed, deep)",
+      "depth": 12,
+      "full_depth": 22,
+      "sdtc_kb": 128.0,
+      "pp_kb": 2.51,
+      "advantage": 51.0
+    }
+  }
+}

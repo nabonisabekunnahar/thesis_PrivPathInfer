@@ -1,0 +1,442 @@
+{
+  "pima": {
+    "display": "PIMA Diabetes (8 cont.)",
+    "n": 768,
+    "features": 8,
+    "fidelity": {
+      "plaintext_accuracy": 0.7315932433579493,
+      "privpathinfer_disagreement_pct": 0.0,
+      "sdtc_disagreement_pct": {
+        "5": 17.33469145233851,
+        "10": 9.764875647228589,
+        "20": 3.907138613020966,
+        "50": 1.4319667260843731,
+        "100": 1.0415075120957475
+      }
+    },
+    "storage": {
+      "8": {
+        "paths": 60,
+        "T": 415,
+        "U": 57,
+        "dedup_ratio": 7.28,
+        "priv_dedup_kb": 17.49,
+        "sdtc_kb": 8.0,
+        "actual_depth": 8
+      },
+      "12": {
+        "paths": 103,
+        "T": 904,
+        "U": 96,
+        "dedup_ratio": 9.42,
+        "priv_dedup_kb": 31.06,
+        "sdtc_kb": 128.0,
+        "actual_depth": 12
+      }
+    },
+    "leakage_depth8": [
+      {
+        "c": 1,
+        "unique_values_U": 57,
+        "total_conditions_T": 415,
+        "n_paths": 60,
+        "ciphertexts_S": 415,
+        "storage_bytes": 109680,
+        "storage_kb": 107.11,
+        "max_linkability": 1,
+        "leakage_floor": 1,
+        "max_reuse": 60
+      },
+      {
+        "c": 2,
+        "unique_values_U": 57,
+        "total_conditions_T": 415,
+        "n_paths": 60,
+        "ciphertexts_S": 217,
+        "storage_bytes": 58992,
+        "storage_kb": 57.61,
+        "max_linkability": 2,
+        "leakage_floor": 1,
+        "max_reuse": 60
+      },
+      {
+        "c": 4,
+        "unique_values_U": 57,
+        "total_conditions_T": 415,
+        "n_paths": 60,
+        "ciphertexts_S": 127,
+        "storage_bytes": 35952,
+        "storage_kb": 35.11,
+        "max_linkability": 4,
+        "leakage_floor": 1,
+        "max_reuse": 60
+      },
+      {
+        "c": 8,
+        "unique_values_U": 57,
+        "total_conditions_T": 415,
+        "n_paths": 60,
+        "ciphertexts_S": 85,
+        "storage_bytes": 25200,
+        "storage_kb": 24.61,
+        "max_linkability": 8,
+        "leakage_floor": 1,
+        "max_reuse": 60
+      },
+      {
+        "c": 16,
+        "unique_values_U": 57,
+        "total_conditions_T": 415,
+        "n_paths": 60,
+        "ciphertexts_S": 65,
+        "storage_bytes": 20080,
+        "storage_kb": 19.61,
+        "max_linkability": 16,
+        "leakage_floor": 1,
+        "max_reuse": 60
+      },
+      {
+        "c": "inf",
+        "unique_values_U": 57,
+        "total_conditions_T": 415,
+        "n_paths": 60,
+        "ciphertexts_S": 57,
+        "storage_bytes": 18032,
+        "storage_kb": 17.61,
+        "max_linkability": 60,
+        "leakage_floor": 1,
+        "max_reuse": 60
+      }
+    ]
+  },
+  "breast_cancer": {
+    "display": "Breast Cancer Wisconsin (30 cont.)",
+    "n": 569,
+    "features": 30,
+    "fidelity": {
+      "plaintext_accuracy": 0.9279925477410339,
+      "privpathinfer_disagreement_pct": 0.0,
+      "sdtc_disagreement_pct": {
+        "5": 10.013972985561248,
+        "10": 5.971122496506753,
+        "20": 3.51653469958081,
+        "50": 1.0541841328986181,
+        "100": 0.17699115044247787
+      }
+    },
+    "storage": {
+      "8": {
+        "paths": 19,
+        "T": 93,
+        "U": 18,
+        "dedup_ratio": 5.17,
+        "priv_dedup_kb": 5.23,
+        "sdtc_kb": 4.0,
+        "actual_depth": 7
+      },
+      "12": {
+        "paths": 19,
+        "T": 93,
+        "U": 18,
+        "dedup_ratio": 5.17,
+        "priv_dedup_kb": 5.23,
+        "sdtc_kb": 4.0,
+        "actual_depth": 7
+      }
+    },
+    "leakage_depth8": [
+      {
+        "c": 1,
+        "unique_values_U": 18,
+        "total_conditions_T": 93,
+        "n_paths": 19,
+        "ciphertexts_S": 93,
+        "storage_bytes": 24590,
+        "storage_kb": 24.01,
+        "max_linkability": 19,
+        "leakage_floor": 19,
+        "max_reuse": 19
+      },
+      {
+        "c": 2,
+        "unique_values_U": 18,
+        "total_conditions_T": 93,
+        "n_paths": 19,
+        "ciphertexts_S": 51,
+        "storage_bytes": 13838,
+        "storage_kb": 13.51,
+        "max_linkability": 19,
+        "leakage_floor": 19,
+        "max_reuse": 19
+      },
+      {
+        "c": 4,
+        "unique_values_U": 18,
+        "total_conditions_T": 93,
+        "n_paths": 19,
+        "ciphertexts_S": 30,
+        "storage_bytes": 8462,
+        "storage_kb": 8.26,
+        "max_linkability": 19,
+        "leakage_floor": 19,
+        "max_reuse": 19
+      },
+      {
+        "c": 8,
+        "unique_values_U": 18,
+        "total_conditions_T": 93,
+        "n_paths": 19,
+        "ciphertexts_S": 22,
+        "storage_bytes": 6414,
+        "storage_kb": 6.26,
+        "max_linkability": 19,
+        "leakage_floor": 19,
+        "max_reuse": 19
+      },
+      {
+        "c": 16,
+        "unique_values_U": 18,
+        "total_conditions_T": 93,
+        "n_paths": 19,
+        "ciphertexts_S": 19,
+        "storage_bytes": 5646,
+        "storage_kb": 5.51,
+        "max_linkability": 19,
+        "leakage_floor": 19,
+        "max_reuse": 19
+      },
+      {
+        "c": "inf",
+        "unique_values_U": 18,
+        "total_conditions_T": 93,
+        "n_paths": 19,
+        "ciphertexts_S": 18,
+        "storage_bytes": 5390,
+        "storage_kb": 5.26,
+        "max_linkability": 19,
+        "leakage_floor": 19,
+        "max_reuse": 19
+      }
+    ]
+  },
+  "heart": {
+    "display": "Heart Disease Cleveland (13 mixed)",
+    "n": 303,
+    "features": 13,
+    "fidelity": {
+      "plaintext_accuracy": 0.7357377049180329,
+      "privpathinfer_disagreement_pct": 0.0,
+      "sdtc_disagreement_pct": {
+        "5": 9.240437158469945,
+        "10": 4.284153005464481,
+        "20": 2.9617486338797816,
+        "50": 1.6448087431693987,
+        "100": 0.6557377049180328
+      }
+    },
+    "storage": {
+      "8": {
+        "paths": 42,
+        "T": 260,
+        "U": 35,
+        "dedup_ratio": 7.43,
+        "priv_dedup_kb": 10.78,
+        "sdtc_kb": 8.0,
+        "actual_depth": 8
+      },
+      "12": {
+        "paths": 42,
+        "T": 260,
+        "U": 35,
+        "dedup_ratio": 7.43,
+        "priv_dedup_kb": 10.78,
+        "sdtc_kb": 8.0,
+        "actual_depth": 8
+      }
+    },
+    "leakage_depth8": [
+      {
+        "c": 1,
+        "unique_values_U": 35,
+        "total_conditions_T": 260,
+        "n_paths": 42,
+        "ciphertexts_S": 260,
+        "storage_bytes": 68724,
+        "storage_kb": 67.11,
+        "max_linkability": 42,
+        "leakage_floor": 42,
+        "max_reuse": 42
+      },
+      {
+        "c": 2,
+        "unique_values_U": 35,
+        "total_conditions_T": 260,
+        "n_paths": 42,
+        "ciphertexts_S": 134,
+        "storage_bytes": 36468,
+        "storage_kb": 35.61,
+        "max_linkability": 42,
+        "leakage_floor": 42,
+        "max_reuse": 42
+      },
+      {
+        "c": 4,
+        "unique_values_U": 35,
+        "total_conditions_T": 260,
+        "n_paths": 42,
+        "ciphertexts_S": 80,
+        "storage_bytes": 22644,
+        "storage_kb": 22.11,
+        "max_linkability": 42,
+        "leakage_floor": 42,
+        "max_reuse": 42
+      },
+      {
+        "c": 8,
+        "unique_values_U": 35,
+        "total_conditions_T": 260,
+        "n_paths": 42,
+        "ciphertexts_S": 52,
+        "storage_bytes": 15476,
+        "storage_kb": 15.11,
+        "max_linkability": 42,
+        "leakage_floor": 42,
+        "max_reuse": 42
+      },
+      {
+        "c": 16,
+        "unique_values_U": 35,
+        "total_conditions_T": 260,
+        "n_paths": 42,
+        "ciphertexts_S": 39,
+        "storage_bytes": 12148,
+        "storage_kb": 11.86,
+        "max_linkability": 42,
+        "leakage_floor": 42,
+        "max_reuse": 42
+      },
+      {
+        "c": "inf",
+        "unique_values_U": 35,
+        "total_conditions_T": 260,
+        "n_paths": 42,
+        "ciphertexts_S": 35,
+        "storage_bytes": 11124,
+        "storage_kb": 10.86,
+        "max_linkability": 42,
+        "leakage_floor": 42,
+        "max_reuse": 42
+      }
+    ]
+  },
+  "framingham": {
+    "display": "Framingham CHD (15 mixed, deep)",
+    "n": 3658,
+    "features": 15,
+    "fidelity": {
+      "plaintext_accuracy": 0.8425358629917845,
+      "privpathinfer_disagreement_pct": 0.0,
+      "sdtc_disagreement_pct": {
+        "5": 3.171118237611476,
+        "10": 2.6244832664289506,
+        "20": 0.9022373722649564,
+        "50": 0.3554528940817654,
+        "100": 0.21872874197334288
+      }
+    },
+    "storage": {
+      "8": {
+        "paths": 87,
+        "T": 622,
+        "U": 82,
+        "dedup_ratio": 7.59,
+        "priv_dedup_kb": 25.36,
+        "sdtc_kb": 8.0,
+        "actual_depth": 8
+      },
+      "12": {
+        "paths": 239,
+        "T": 2386,
+        "U": 211,
+        "dedup_ratio": 11.31,
+        "priv_dedup_kb": 71.39,
+        "sdtc_kb": 128.0,
+        "actual_depth": 12
+      }
+    },
+    "leakage_depth8": [
+      {
+        "c": 1,
+        "unique_values_U": 82,
+        "total_conditions_T": 622,
+        "n_paths": 87,
+        "ciphertexts_S": 622,
+        "storage_bytes": 164382,
+        "storage_kb": 160.53,
+        "max_linkability": 28,
+        "leakage_floor": 28,
+        "max_reuse": 87
+      },
+      {
+        "c": 2,
+        "unique_values_U": 82,
+        "total_conditions_T": 622,
+        "n_paths": 87,
+        "ciphertexts_S": 325,
+        "storage_bytes": 88350,
+        "storage_kb": 86.28,
+        "max_linkability": 28,
+        "leakage_floor": 28,
+        "max_reuse": 87
+      },
+      {
+        "c": 4,
+        "unique_values_U": 82,
+        "total_conditions_T": 622,
+        "n_paths": 87,
+        "ciphertexts_S": 184,
+        "storage_bytes": 52254,
+        "storage_kb": 51.03,
+        "max_linkability": 28,
+        "leakage_floor": 28,
+        "max_reuse": 87
+      },
+      {
+        "c": 8,
+        "unique_values_U": 82,
+        "total_conditions_T": 622,
+        "n_paths": 87,
+        "ciphertexts_S": 124,
+        "storage_bytes": 36894,
+        "storage_kb": 36.03,
+        "max_linkability": 28,
+        "leakage_floor": 28,
+        "max_reuse": 87
+      },
+      {
+        "c": 16,
+        "unique_values_U": 82,
+        "total_conditions_T": 622,
+        "n_paths": 87,
+        "ciphertexts_S": 96,
+        "storage_bytes": 29726,
+        "storage_kb": 29.03,
+        "max_linkability": 28,
+        "leakage_floor": 28,
+        "max_reuse": 87
+      },
+      {
+        "c": "inf",
+        "unique_values_U": 82,
+        "total_conditions_T": 622,
+        "n_paths": 87,
+        "ciphertexts_S": 82,
+        "storage_bytes": 26142,
+        "storage_kb": 25.53,
+        "max_linkability": 87,
+        "leakage_floor": 28,
+        "max_reuse": 87
+      }
+    ]
+  }
+}
